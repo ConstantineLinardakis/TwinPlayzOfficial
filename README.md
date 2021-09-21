@@ -20,8 +20,11 @@ ___
 
 ___
 
-### Class Diagram Idea's
-<img src="https://github.com/ConstantineLinardakis/OfficialWebsite/blob/main/doc/ClassDiagram.png">
+### Website Storyboard
+<img src="https://raw.githubusercontent.com/ConstantineLinardakis/TwinPlayzOfficial/main/src/assets/AboutPage.png">
+<img src="https://raw.githubusercontent.com/ConstantineLinardakis/TwinPlayzOfficial/main/src/assets/ContactPage.png">
+<img src="https://raw.githubusercontent.com/ConstantineLinardakis/TwinPlayzOfficial/main/src/assets/Home%20Page.png">
+<img src="https://raw.githubusercontent.com/ConstantineLinardakis/TwinPlayzOfficial/main/src/assets/ShortSizePage.png">
 
 ___
 #### @ TwinPlayz | twinplayzofficial@gmail.com
