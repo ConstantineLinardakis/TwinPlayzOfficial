@@ -17,24 +17,29 @@
     <!-- WEBSITE BODY -->
     <body>
         <nav>
-            <div class="logo"><img src="src/assets/TWINLOGO.png"></div>
-            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <div class="logo"><a href="index.html"><img src="src/assets/TWINLOGO.png" style="width: 100px;height: 100px;"></a></div>
+            <div class="openMenu"><i class="fa fa-bars" style="color:black;"></i></div>
             <ul class="mainMenu">
-                <li><a href="#index.html">Home</a></li>
+                <!-- Center-aligned links -->
+                <div class="nav-center">
+                    <div class="navLogo"><a href="index.html"><img src="src/assets/TWINLOGO.png" style="width: 100px;height: 100px;"></a></div>
+                </div>
+                <!-- Left-aligned links -->
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Store</a></li>
                 <div class="closeMenu"><i class="fa fa-times"></i></div>
-                <span class="icons">
-                    <i class="fab fa-youtube"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-github"></i>
-                </span>
+                <!-- Right-aligned links -->
+                <div class="nav-right">
+                    <span class="icons">
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-github"></i>
+                    </span>
+                </div>
             </ul>
         </nav>
-
-
     <script src="src/js/burger.js"></script>
     </body>
 

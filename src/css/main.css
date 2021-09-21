@@ -4,30 +4,62 @@
     padding: 0;
 
 }
+
+/* Body */
 body  {
     font-family: 'Arial' , sans-serif;
 }
+
+/* Nav BAR */
 nav {
-    background: #000;
+    position: relative;
+    background: rgb(255, 255, 255);
     color: #fff;
     display: flex;
     justify-content: space-between;
+    height:fit-content;
+    overflow: hidden;
+    width:100%;
 }
+
+/* Nav Main Menu */
 nav .mainMenu {
     display: flex;
     list-style: none;
 }
+
+/* Centered section inside the top navigation */
+.nav-center{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.nav-right {
+    position:absolute;
+    float: right;
+    right:-100px;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
 nav .mainMenu li a {
     display: inline-block;
-    padding: 15px;
+    padding: 30px;
+    margin:10px;
     text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
+    /* text-transform: uppercase; */
+    color: rgb(0, 0, 0);
     font-size: 1.5rem;
+    font-family:'Courier New', Courier, monospace;
 }
 nav .mainMenu li a:hover {
-    background: rgb(255,94,0);
+    color: rgb(0, 110, 255);
 }
+
 nav .openMenu {
     font-size: 2rem;
     margin: 20px;
@@ -39,17 +71,45 @@ nav .mainMenu .closeMenu , .icons i {
     display: none;
     cursor: pointer;
 }
-.fa-youtube:hover {color: rgb(255, 0, 0);}
-.fa-twitter:hover {color: rgb(86, 154, 243);}
-.fa-instagram:hover {color: rgb(255, 102, 0);}
-.fa-github:hover {color: rgb(146, 0, 134);}
 
 nav .logo {
     margin: 6px;
     font-size: 25px;
     cursor: pointer;
+    display:none;
 }
-@media(max-width: 800px){
+
+.icons i {
+    display: inline-block;
+    padding: 12px;
+    color:black;
+}
+
+/* First Media Querie */
+
+@media(max-width:1020px){
+    nav .mainMenu li a {
+        display: inline-block;
+        padding: 30px;
+        margin:10px;
+        text-decoration: none;
+        /* text-transform: uppercase; */
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+        font-family:'Courier New', Courier, monospace;
+    }
+}
+
+/* Second Media Querie */
+
+@media(max-width: 805px){
+    nav .logo{
+        margin: 6px;
+        font-size: 25px;
+        cursor: pointer;
+        display:inherit;
+    }
+
     nav .mainMenu {
         height: 100vh;
         position: fixed;
@@ -64,27 +124,35 @@ nav .logo {
         transition: top 1s ease;
         display: flex;
     }
+
     nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
         top: 20px;
         right: 20px;
-
     }
+
     nav .openMenu {
         display: block;
     }
 
     nav .mainMenu li a:hover {
         background: none;
-        color: rgb(255, 123, 0);
+        color: rgb(0, 110, 255);
         font-size: 1.6rem;
     }
+
     .icons i {
         display: inline-block;
         padding: 12px;
+        color:rgb(0, 0, 0);
     }
 }
+
+.fa-youtube:hover {color: rgb(255, 0, 0);}
+.fa-twitter:hover {color: rgb(86, 154, 243);}
+.fa-instagram:hover {color: rgb(255, 102, 0);}
+.fa-github:hover {color: rgb(146, 0, 134);}
 
 
  
