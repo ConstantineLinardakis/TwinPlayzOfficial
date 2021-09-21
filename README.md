@@ -1,5 +1,5 @@
 
-[![Website](https://github.com/ConstantineLinardakis/OfficialWebsite/blob/main/doc/THUMBNAIL.png)](https://constantinelinardakis.github.io/OfficialWebsite/Home.html)
+[![Website](https://github.com/ConstantineLinardakis/OfficialWebsite/blob/main/doc/THUMBNAIL.png)](https://constantinelinardakis.github.io/TwinPlayzOfficial/index.html)
 
 # ^ CLICK  ^
 
