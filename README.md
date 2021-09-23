@@ -16,7 +16,9 @@ ___
 
 ## Documentation
 
-10.28.21 - Creating Github Repo / Storyboard
+10.18.21 - Creating Github Repo / Storyboard
+10.20.21 - Created HTML Pages
+10.23.21 - Created Home Page & Design
 
 ___
 
