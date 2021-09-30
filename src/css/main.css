@@ -69,6 +69,7 @@ nav .openMenu {
     display: none;
     cursor: pointer;
 }
+
 nav .mainMenu .closeMenu , .icons i {
     font-size: 2rem;
     display: none;
@@ -183,12 +184,61 @@ footer .icons .fab{
     border-width: 1px;
 }
 
+
+/* HEADER DIV */
+header h1{
+    background-color: #2A63E7;
+    border-top: solid;
+    border-width: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    height:100px;
+    width: 100%;
+    align-items: center;
+    line-height:100px;
+} 
+
+header h2{
+    background-color: black;
+    letter-spacing: 5px;
+    height:30px;
+    width:100%;
+    align-items: center;
+    line-height:30px;
+    font-size:10px;
+}
+
+
 /* SOCIAL HOVERS */
 
 .fa-youtube:hover {color: rgb(255, 0, 0);}
 .fa-twitter:hover {color: rgb(86, 154, 243);}
 .fa-instagram:hover {color: rgb(255, 102, 0);}
 .fa-github:hover {color: rgb(146, 0, 134);}
+
+.leftLinks {
+    display: inline-block;
+    position: relative;
+    color: rgb(0, 110, 255);
+}
+  
+.leftLinks:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 25px;
+    left: 0;
+    background-color: rgb(0, 110, 255);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.leftLinks:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
 
 /* SCROLL BAR  */
 
@@ -221,37 +271,62 @@ footer .icons .fab{
         padding: 30px;
         margin:10px;
         text-decoration: none;
-        /* text-transform: uppercase; */
+        text-transform: uppercase; 
         color: rgb(0, 0, 0);
         font-size: 1rem;
         font-family:'Courier New', Courier, monospace;
     }
+    .contact .holder .title{
+        font-size:2rem;
+    }
+    
+    footer .contact .holder .info{
+        font-size:1rem;
+    }
 }
 
-/* HEADER DIV */
-header h1{
-    background-color: #2A63E7;
-    border-top: solid;
-    border-width: 1px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 5px;
-    height:100px;
-    width: 100%;
-    align-items: center;
-    line-height:100px;
+/* Second Media Querie (FOOTER) */
+
+@media(max-width:676px){
+    .contact .holder .title{
+        font-size:1.5rem;
+    }
+    
+    footer .contact .holder .info{
+        font-size:0.8rem;
+    }
+
+    footer p{
+        position: relative;
+        left:60%;
+        bottom:-25px;
+    }
+    
+    footer .icons{
+        position: absolute;
+        left: 10%;
+        bottom: 4;
+    }
+    
+    footer .icons .fab{
+        font-size:0.8rem;
+    }
 }
 
-header h2{
-    background-color: black;
-    letter-spacing: 5px;
-    height:30px;
-    width:100%;
-    align-items: center;
-    line-height:30px;
-    font-size:10px;
+/* Third Media Querie (FOOTER) */
+
+@media(max-width:555px){
+    footer .contact .holder .info{
+        padding:5px;
+    }
+    .button {
+        padding: 5px 5px;
+        font-size: 12px;
+        margin: 5px 5px;
+      }
 }
 
-/* Second Media Querie */
+/* Fourth Media Querie */
 
 @media(max-width: 805px){
     nav .logo{
@@ -271,7 +346,7 @@ header h2{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: #000;
+        background: white;
         transition: top 1s ease;
         display: flex;
     }
@@ -281,6 +356,7 @@ header h2{
         position: absolute;
         top: 20px;
         right: 20px;
+        color:black;
     }
 
     nav .openMenu {
@@ -299,6 +375,8 @@ header h2{
         color:rgb(0, 0, 0);
     }
 }
+
+
 
 
  
