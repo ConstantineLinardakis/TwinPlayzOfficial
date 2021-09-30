@@ -19,6 +19,10 @@ ___
 10.18.21 - Creating Github Repo / Storyboard
 10.20.21 - Created HTML Pages
 10.23.21 - Created Home Page & Design
+10.25.21 - CSS Designing Part 1 (Header/Nav)
+10.27.21 - CSS Designing Part 2 (Footer)
+10.29.21 - CSS Design Part 3 (Responsive)
+10.30.21 - HTML Home Page Footer Fixed / HTML Contact Page Started
 
 ___
 
