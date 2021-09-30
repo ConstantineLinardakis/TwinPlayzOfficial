@@ -22,7 +22,7 @@ ___
 10.25.21 - CSS Designing Part 1 (Header/Nav)
 10.27.21 - CSS Designing Part 2 (Footer)
 10.29.21 - CSS Design Part 3 (Responsive)
-10.30.21 - HTML Home Page Footer Fixed / HTML Contact Page Started
+10.30.21 - HTML Home Page Footer Fixed / HTML Contact & About Page Started
 
 ___
 
