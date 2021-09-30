@@ -1,4 +1,3 @@
-//Contact Form in PHP
 const form = document.querySelector("form"),
 statusTxt = form.querySelector(".button-area span");
 form.onsubmit = (e)=>{
@@ -8,7 +7,7 @@ form.onsubmit = (e)=>{
   statusTxt.innerText = "Sending your message...";
   form.classList.add("disabled");
   let xhr = new XMLHttpRequest();
-  xhr.open("POST", "src/php/message.php", true);
+  xhr.open("POST", "message.php", true);
   xhr.onload = ()=>{
     if(xhr.readyState == 4 && xhr.status == 200){
       let response = xhr.response;
