@@ -12,9 +12,10 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
         <link rel="stylesheet" href="src/css/main.css">
+        <link rel="stylesheet" href="src/css/contact.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
     </head>
     <!-- WEBSITE BODY -->
     <body>
@@ -43,25 +44,49 @@
                 </div>
             </ul>
         </nav>
-        <!-- HOME PAGE HEAD -->
-        <header>
-            <h1 style="text-align: center;color:white;">TWINPLAYZ</h1>
-            <h2 style="text-align: center;color:white;">DEVELOPER,YOUTUBER,GAMER,PROGRAMMER</h2>
-        </header>
-        <!-- HOME PAGE EXTRA FUN CONTENT -->
+        <!-- CONTACT PAGE MAIN -->
         <div class="extra">
-
-        </div>
-        <!-- HOME PAGE FOOTER -->
-        <footer data-aos="fade-down" data-aos-once="true" data-aos-duration="500">
-            <!-- HOME PAGE CONTACT FOOTER -->
-            <div class="contact">
+            <div class="wrapper">
                 <div class="holder">
-                    <h1 class = "title">Let's Work Together</h1>
-                    <p class = "info">If you’re looking for a product review, development, business inquiries, and more. Please contact and I will contact you back as soon as possible.</p>
-                    <h5><a href="contact.html"><button class="button button1">Contact Me</button></a></h5>
+                    <header>Let's Work Together!</header>
+                    <p class = "info">Please provide some information on your project or goals and we’ll move the conversation on from there. Pricing is based on the project at hand.</p>
+                    <hr>
+                    <p class = "info"> I check emails every night/morning so if you’d like to contact via questions, client work, or anything else I am here!</p>
                 </div>
-            </div>
+                <form action="#">
+                  <div class="dbl-field">
+                    <div class="field">
+                      <input type="text" name="name" placeholder="Enter your name">
+                      <i class='fas fa-user'></i>
+                    </div>
+                    <div class="field">
+                      <input type="text" name="email" placeholder="Enter your email">
+                      <i class='fas fa-envelope'></i>
+                    </div>
+                  </div>
+                  <div class="dbl-field">
+                    <div class="field">
+                      <input type="text" name="phone" placeholder="Enter your phone">
+                      <i class='fas fa-phone-alt'></i>
+                    </div>
+                    <div class="field">
+                      <input type="text" name="website" placeholder="Enter your website">
+                      <i class='fas fa-globe'></i>
+                    </div>
+                  </div>
+                  <div class="message">
+                    <textarea placeholder="Write your message" name="message"></textarea>
+                    <i class="material-icons">message</i>
+                  </div>
+                  <div class="button-area">
+                    <button type="submit">Send Message</button>
+                    <span></span>
+                  </div>
+                </form>
+              </div>
+        </div>
+        <!-- CONTACT PAGE FOOTER -->
+        <footer>
             <!-- FOOTER ICONS/TEXT -->
             <span class="icons">
                 <a href="https://www.youtube.com/c/TwinPlayz_YT/?sub_confirmation=1" target="_blank"><i class="fab fa-youtube"></i></a>
@@ -74,6 +99,7 @@
         <!-- JAVA SCRIPT (BURGER/AOS)-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="src/js/burger.js"></script>
+    <script src="src/js/contact.js"></script>
     <script>
         AOS.init();
     </script>

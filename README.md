@@ -23,6 +23,7 @@ ___
 10.27.21 - CSS Designing Part 2 (Footer)
 10.29.21 - CSS Design Part 3 (Responsive)
 10.30.21 - HTML Home Page Footer Fixed / HTML Contact & About Page Started
+10.31.21 - Contact Page Created / PHP File & Contact JS
 
 ___
 
