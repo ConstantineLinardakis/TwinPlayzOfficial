@@ -24,22 +24,40 @@
   font-family:'Courier New', Courier, monospace;
 }
 
-.wrapper .holder{
-  background-color: black;
-  margin:auto;
-  width:40%;
-  position:sticky;
+.wrapper .container-fluid{
+  margin-right:0px;
+  background-color:black;
+  position: sticky;
+  padding-top:60px;
   right:100%;
+  width:40%;
+  height:500px;
 }
 
-.wrapper .holder .info{
+.wrapper .container-fluid p{
+  font-family:'Courier New', Courier, monospace;
+}
+
+.wrapper .container-fluid .info{
   color:white;
 }
 
+.extra .wrapper .container-fluid .icons i{
+  display: inline-block;
+  padding: 12px;
+  color:white;
+}
+
+.extra .wrapper .container-fluid .icons .fab{
+  font-size:1rem;
+  border: solid;
+  border-width: 1px;
+}
+
 .wrapper form{
-  position: sticky;
-  left:100%;
-  margin: 35px 30px;
+  position: absolute;
+  left:45%;
+  top:30%;
   width:50%;
 }
 .wrapper form.disabled{
