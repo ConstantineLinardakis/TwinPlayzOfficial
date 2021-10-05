@@ -145,7 +145,7 @@ footer .contact .holder .info{
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-  }
+}
 
 .button1:hover{
     background-color: gainsboro;
@@ -319,13 +319,13 @@ header h2{
 
 @media(max-width:555px){
     footer .contact .holder .info{
-        padding:5px;
+        padding:1px;
     }
     .button {
         padding: 5px 5px;
         font-size: 12px;
         margin: 5px 5px;
-      }
+    }
 }
 
 /* Fourth Media Querie */
@@ -375,6 +375,10 @@ header h2{
         display: inline-block;
         padding: 12px;
         color:rgb(0, 0, 0);
+    }
+
+    footer .contact .holder .info{
+        font-size:0.8rem;
     }
 }
 

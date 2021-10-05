@@ -25,7 +25,7 @@ ___
 09.30.21 - HTML Home Page Footer Fixed / HTML Contact & About Page Started
 09.31.21 - Contact Page Created / PHP File & Contact JS
 10.3.21 - Contact Page Adjustments
-10.5.21 - Finished Contact Page Responsiveness
+10.5.21 - Finished Contact Page Responsiveness / Started About Page
 
 ___
 
