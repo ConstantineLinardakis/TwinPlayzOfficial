@@ -16,14 +16,16 @@ ___
 
 ## Documentation
 
-10.18.21 - Creating Github Repo / Storyboard
-10.20.21 - Created HTML Pages
-10.23.21 - Created Home Page & Design
-10.25.21 - CSS Designing Part 1 (Header/Nav)
-10.27.21 - CSS Designing Part 2 (Footer)
-10.29.21 - CSS Design Part 3 (Responsive)
-10.30.21 - HTML Home Page Footer Fixed / HTML Contact & About Page Started
-10.31.21 - Contact Page Created / PHP File & Contact JS
+09.18.21 - Creating Github Repo / Storyboard
+09.20.21 - Created HTML Pages
+09.23.21 - Created Home Page & Design
+09.25.21 - CSS Designing Part 1 (Header/Nav)
+09.27.21 - CSS Designing Part 2 (Footer)
+09.29.21 - CSS Design Part 3 (Responsive)
+09.30.21 - HTML Home Page Footer Fixed / HTML Contact & About Page Started
+09.31.21 - Contact Page Created / PHP File & Contact JS
+10.3.21 - Contact Page Adjustments
+10.5.21 - Finished Contact Page Responsiveness
 
 ___
 
