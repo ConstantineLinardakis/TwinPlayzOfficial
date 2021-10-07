@@ -29,7 +29,7 @@ p{
 
 .container .row .col .p4{
     text-decoration: underline;
-    font-family: cursive;
+    font-family:cursive;
 }
 
 
@@ -73,5 +73,12 @@ footer .contact .holder .info{
         padding: 8px 20px;
         font-size: 15px;
         margin: 2px 2px;
+    }
+}
+
+@media(max-width:750px){
+    .container-fluid{
+        height:600px;
+        transition: ease all .5s;
     }
 }
