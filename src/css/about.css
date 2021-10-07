@@ -63,7 +63,24 @@ footer .contact .holder .info{
     }
 }
 
-/* Second Media Querie */
+/* Third Media Querie */
+
+@media(max-width:874px){
+    nav .mainMenu li a {
+      padding: 30px;
+      margin:10px;
+      font-size: 0.8rem;
+      transition: ease all .5s;
+    }
+  }
+
+@media(min-height:820px){
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+/* Fourth Media Querie */
 
 @media(max-width:780px){
     footer .contact .holder .info{
@@ -76,9 +93,12 @@ footer .contact .holder .info{
     }
 }
 
+/* Fifth Media Querie */
+
 @media(max-width:750px){
     .container-fluid{
         height:600px;
         transition: ease all .5s;
     }
 }
+

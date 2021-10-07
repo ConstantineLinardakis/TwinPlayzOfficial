@@ -190,6 +190,13 @@ form .button-area{
   }
 }
 
+/* Media Querie (ScrollBar) */
+
+@media(min-height:820px){
+  ::-webkit-scrollbar {
+      display: none;
+  }
+}
 
 /* Media Querie (Form/Header) */
 

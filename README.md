@@ -26,6 +26,7 @@ ___
 09.31.21 - Contact Page Created / PHP File & Contact JS
 10.3.21 - Contact Page Adjustments
 10.5.21 - Finished Contact Page Responsiveness / Started About Page
+10.7.21 - Fixing Media Queries (Contact/About)
 
 ___
 
