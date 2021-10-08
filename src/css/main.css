@@ -91,12 +91,12 @@ nav .logo {
     color:black;
 }
 
-/* EXTRA DIV */
-.extra{
+/* CONTAINER FLUID */
+
+.container-fluid{
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 800px;
-    padding-bottom: 2.5rem;
+    height: 1500px;
 }
 
 /* CONTACT DIV */
@@ -130,7 +130,7 @@ footer .contact .holder .info{
     padding:10px;
     text-align: left;
     color:white;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .button {
@@ -198,6 +198,7 @@ header h1{
     width: 100%;
     align-items: center;
     line-height:100px;
+    margin-bottom: 0;
 } 
 
 header h2{
@@ -209,7 +210,6 @@ header h2{
     line-height:30px;
     font-size:10px;
 }
-
 
 /* SOCIAL HOVERS */
 
@@ -388,9 +388,3 @@ header h2{
     }
 
 }
-
-
-
-
- 
-
