@@ -80,6 +80,55 @@ footer .contact .holder .info{
     }
 }
 
+/* Media Querie (DROP DOWN) */
+
+@media(max-width: 805px){
+    nav .logo{
+        margin: 6px;
+        font-size: 25px;
+        cursor: pointer;
+        display:inherit;
+    }
+  
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: -100%;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        transition: top 1s ease;
+        display: flex;
+    }
+  
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color:black;
+    }
+  
+    nav .openMenu {
+        display: block;
+    }
+  
+    nav .mainMenu li a {
+        background: none;
+        font-size: 2rem;
+    }
+  
+    nav .mainMenu li a:hover {
+        background: none;
+        color: rgb(0, 110, 255);
+        font-size: 2.5rem;
+    }
+  }
+
 /* Fourth Media Querie */
 
 @media(max-width:780px){
