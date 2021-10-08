@@ -365,11 +365,22 @@ header h2{
         display: block;
     }
 
+    nav .mainMenu li a {
+        background: none;
+        font-size: 2rem;
+    }
+
     nav .mainMenu li a:hover {
         background: none;
         color: rgb(0, 110, 255);
-        font-size: 1.6rem;
+        font-size: 2.5rem;
     }
+
+    /* nav .mainMenu .nav-right{
+        position:absolute;
+        bottom:50;
+        right:50;
+    } */
 
     .icons i {
         display: inline-block;
@@ -380,6 +391,7 @@ header h2{
     footer .contact .holder .info{
         font-size:0.8rem;
     }
+
 }
 
 
