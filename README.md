@@ -27,6 +27,7 @@ ___
 10.3.21 - Contact Page Adjustments
 10.5.21 - Finished Contact Page Responsiveness / Started About Page
 10.7.21 - Fixing Media Queries (Contact/About)
+10.8.21 - Researching Contact Page (PHP)
 
 ___
 
