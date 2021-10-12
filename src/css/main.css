@@ -361,7 +361,7 @@ header h2{
 
 /* Fourth Media Querie */
 
-@media(max-width: 805px){
+@media(max-width: 845px){
     nav .logo{
         margin: 6px;
         font-size: 25px;
