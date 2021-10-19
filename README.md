@@ -29,7 +29,7 @@ ___
 10.7.21 - Fixing Media Queries (Contact/About)
 10.8.21 - Researching Contact Page (PHP) & Burger Menu Positioning / Added Container-Fluid Home Page
 10.12.21 - Working On Home Page (Responsive Boxes) For GFX, Programming, Games, Photography & Created New Files
-10.19.21 - Working On Graphic Pages (Carousel Bootstrap)
+10.19.21 - Working On Extra Pages (Carousel Bootstrap), Fixed Captions, Fixed Sizes, New Designs & Ideas
 
 ___
 
