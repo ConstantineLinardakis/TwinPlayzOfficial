@@ -46,6 +46,13 @@
 
 /* IMPORTANT MEDIA QUERIES FOR FOOTER */
 
+@media(min-width:1185px){
+    footer{
+        position:absolute;
+        bottom:-3.5rem;
+    }
+}
+
 @media(max-width:1185px){
     footer{
         position:absolute;
