@@ -342,3 +342,26 @@ form .button-area{
   }
 }
 
+/* EXTRA FIX */
+
+@media(max-width:1185px){
+  footer{
+      position:absolute;
+      bottom:0rem;
+  }
+}
+
+@media(max-width:550px){
+  footer{
+      position:absolute;
+      bottom:0rem;
+  }
+}
+
+@media(max-width:500px){
+  footer{
+      position:absolute;
+      bottom:0rem;
+  }
+}
+

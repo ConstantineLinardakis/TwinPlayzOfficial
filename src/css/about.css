@@ -47,6 +47,27 @@ footer .contact .holder .info{
 
 /* First Media Querie */
 
+@media(max-width:1185px){
+    footer{
+        position:absolute;
+        bottom:0rem;
+    }
+}
+
+@media(max-width:550px){
+    footer{
+        position:absolute;
+        bottom:0rem;
+    }
+}
+
+@media(max-width:500px){
+    footer{
+        position:absolute;
+        bottom:0rem;
+    }
+}
+
 @media(max-width:1190px){
     .container-fluid{
         height:500px;
