@@ -2,7 +2,7 @@
 
 .container-fluid{
     padding-top: 2rem;
-    height: 400px;
+    height: 410px;
 }
 
 /* CONTAINER FLUID HEADER TEXT */
@@ -79,7 +79,7 @@ footer .contact .holder .info{
 
 @media(max-width:1190px){
     .container-fluid{
-        height:540px;
+        height:560px;
         transition: ease all .5s;
     }
 }
