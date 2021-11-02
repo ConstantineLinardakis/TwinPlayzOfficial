@@ -1,0 +1,208 @@
+/* CONTAINER FLUID */
+
+.container-fluid{
+    padding-top: 2rem;
+    height: 420px;
+}
+
+/* CONTAINER FLUID HEADER TEXT */
+
+.container .row .col h1{
+    font-size: 60px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
+.container .row .col h2{
+    font-size:80px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+/* CONTAINER FLUID ABOUT ME TEXT */
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .row .col .p4{
+    text-decoration: underline;
+    font-family:cursive;
+}
+
+
+/* FIXING FOOTER */
+
+.button {
+    padding: 10px 25px;
+    font-size: 15px;
+    margin: 2px 2px;
+}
+
+footer .contact .holder .info{
+    padding-bottom: 1rem;
+}
+
+/* First Media Querie */
+
+@media(max-width:1185px){
+    footer{
+        position:absolute;
+        bottom:0rem;
+    }
+}
+
+@media(max-width:550px){
+    footer{
+        position:absolute;
+        bottom:0rem;
+    }
+}
+
+@media(max-width:500px){
+    footer{
+        position:absolute;
+        bottom:0rem;
+    }
+}
+
+@media(max-width:1190px){
+    .container-fluid{
+        height:500px;
+        transition: ease all .5s;
+    }
+}
+
+@media(max-width:1400px){
+    .container-fluid{
+        height:500px;
+        transition: ease all .5s;
+    }
+}
+
+@media(max-width:1190px){
+    .container-fluid{
+        height:550px;
+        transition: ease all .5s;
+    }
+}
+
+/* Second Media Querie */
+
+@media(max-width:1000px){
+    .container-fluid{
+        height:700px;
+        transition: ease all .5s;
+    }
+    .container .row{
+        height:500px;
+        justify-content: center;
+        justify-self: center;
+    }
+}
+
+/* Third Media Querie */
+
+@media(max-width:874px){
+    nav .mainMenu li a {
+      padding: 30px;
+      margin:10px;
+      font-size: 0.8rem;
+      transition: ease all .5s;
+    }
+  }
+
+@media(min-height:820px){
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+/* Media Querie (DROP DOWN) */
+
+@media(max-width: 805px){
+    nav .logo{
+        margin: 6px;
+        font-size: 25px;
+        cursor: pointer;
+        display:inherit;
+    }
+  
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: -100%;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        transition: top 1s ease;
+        display: flex;
+    }
+  
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color:black;
+    }
+  
+    nav .openMenu {
+        display: block;
+    }
+  
+    nav .mainMenu li a {
+        background: none;
+        font-size: 2rem;
+    }
+  
+    nav .mainMenu li a:hover {
+        background: none;
+        color: rgb(0, 110, 255);
+        font-size: 2.5rem;
+    }
+  }
+
+/* Fourth Media Querie */
+
+@media(max-width:780px){
+    footer .contact .holder .info{
+        padding-bottom: 0.5rem;
+    }
+    .button {
+        padding: 8px 20px;
+        font-size: 15px;
+        margin: 2px 2px;
+    }
+}
+
+/* Fifth Media Querie */
+
+@media(max-width:760px){
+
+    .container-fluid{
+        height:500px;
+        transition: ease all .5s;
+    }
+
+    .container .row .col p{
+        font-size:0.6rem;
+    }
+}
+
+@media(max-width:540px){
+
+    .container .row .col h1{
+        font-size: 40px;
+    }
+    
+    .container .row .col h2{
+        font-size:60px;
+    }
+}

@@ -30,7 +30,7 @@ ___
 10.8.21 - Researching Contact Page (PHP) & Burger Menu Positioning / Added Container-Fluid Home Page
 10.12.21 - Working On Home Page (Responsive Boxes) For GFX, Programming, Games, Photography & Created New Files
 10.19.21 - Working On Extra Pages (Carousel Bootstrap), Fixed Captions, Fixed Sizes, New Designs & Ideas
-11.02.21 - Working On Requirements / Finished Programming Page
+11.02.21 - Working On Requirements / Finished Programming Page / Finished Game Page / Fixed Burger Menu
 
 ___
 
