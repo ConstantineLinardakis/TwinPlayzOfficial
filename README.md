@@ -17,6 +17,7 @@ ___
 ## Documentation
 
 09.18.21 - Creating Github Repo / Storyboard
+
 09.20.21 - Created HTML Pages
 09.23.21 - Created Home Page & Design
 09.25.21 - CSS Designing Part 1 (Header/Nav)
