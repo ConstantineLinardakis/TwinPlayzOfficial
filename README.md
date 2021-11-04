@@ -31,6 +31,7 @@ ___
 10.12.21 - Working On Home Page (Responsive Boxes) For GFX, Programming, Games, Photography & Created New Files
 10.19.21 - Working On Extra Pages (Carousel Bootstrap), Fixed Captions, Fixed Sizes, New Designs & Ideas
 11.02.21 - Working On Requirements / Finished Programming Page / Finished Game Page / Fixed Burger Menu
+11.04.21 - Working On Graphics Page
 
 ___
 
