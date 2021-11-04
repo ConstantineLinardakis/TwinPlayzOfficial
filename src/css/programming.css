@@ -193,3 +193,35 @@ footer .contact .holder .info{
     }
 }
 
+/* ----------------------------------------------------------------------------------------- */
+
+/* IPHONE RESPONSIVENESS FOOTER */
+
+@media(max-width:492px){
+    .container-fluid{
+        height:750px;
+        transition: ease all .5s;
+    }
+}
+
+@media(max-width:415px){
+    .container-fluid{
+        height:800px;
+        transition: ease all .5s;
+    }
+
+    .container .row .col h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .container .row .col h2{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:347px){
+    .container-fluid{
+        height:900px;
+        transition: ease all .5s;
+    }
+}

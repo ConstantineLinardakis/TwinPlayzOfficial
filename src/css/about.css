@@ -172,3 +172,30 @@ footer .contact .holder .info{
     }
 }
 
+/* ----------------------------------------------------------------------------------------- */
+
+/* IPHONE RESPONSIVENESS FOOTER */
+
+@media(max-width:444px){
+    .container-fluid{
+        height:700px;
+        transition: ease all .5s;
+    }
+
+
+    .container .row .col h1{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .container .row .col h2{
+        font-size: 60px;
+    }
+}
+
+@media(max-width:386px){
+    footer p{
+        font-size: 0.5rem;
+        left:80%;
+    }
+}
