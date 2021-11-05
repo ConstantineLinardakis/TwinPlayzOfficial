@@ -48,6 +48,8 @@ ___
 
 11.04.21 - Working On Graphics Page / Updating Mobile Responsiveness (ALL PAGES)
 
+11.05.21 - Working On Burger Menu DropDown Fix / Extra White Space (Mobile View)
+
 ___
 
 ### Website Storyboard
