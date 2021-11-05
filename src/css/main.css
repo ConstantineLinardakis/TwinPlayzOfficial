@@ -524,3 +524,12 @@ header h2{
         left:80%;
     }
 }
+
+
+/* FOOTER FIX MAYBE */
+
+@media (max-width: 600px) {
+    #copyright_text {
+      width: 130px;
+    }
+}
