@@ -526,10 +526,21 @@ header h2{
 }
 
 
-/* FOOTER FIX MAYBE */
+/* FOOTER FIX */
+
+#copyright_text{
+    width:200px;
+}
+
 
 @media (max-width: 600px) {
     #copyright_text {
       width: 130px;
+    }
+}
+
+@media (max-width: 400px) {
+    #copyright_text {
+      width: 50px;
     }
 }
