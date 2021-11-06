@@ -288,13 +288,6 @@ header h2{
     }
 }
 
-@media(max-width:1199px){
-    footer{
-        position:absolute;
-        bottom:-70rem;
-    }
-}
-
 @media(max-width:550px){
     footer{
         position:absolute;
@@ -506,7 +499,7 @@ header h2{
 
 @media (max-width : 400px){
     .container-fluid{
-        height:700px;
+        height:500px;
         transition: ease all .5s;
     }
 }

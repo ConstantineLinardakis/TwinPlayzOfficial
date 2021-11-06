@@ -77,7 +77,7 @@ footer .contact .holder .info{
     }
 }
 
-@media(max-width:1190px){
+@media(max-width:1199px){
     .container-fluid{
         height:560px;
         transition: ease all .5s;

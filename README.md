@@ -50,6 +50,8 @@ ___
 
 11.05.21 - Fixed Mobile View / Extra White Space
 
+11.06.21 - Fixed Media Queries (Need to work on White Space/Graphics Page)
+
 ___
 
 ### Website Storyboard

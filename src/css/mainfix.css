@@ -1,0 +1,6 @@
+@media(max-width:1199px){
+    footer{
+        position:absolute;
+        bottom:-70rem;
+    }
+}

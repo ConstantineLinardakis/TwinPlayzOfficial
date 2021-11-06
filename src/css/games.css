@@ -253,3 +253,10 @@ footer .contact .holder .info{
         transition: ease all .5s;
     }
 }
+
+@media(max-width:245px){
+    .container-fluid{
+        height:500px;
+        transition: ease all .5s;
+    }
+}
