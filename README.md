@@ -52,6 +52,8 @@ ___
 
 11.06.21 - Fixed Media Queries (Need to work on White Space/Graphics Page)
 
+11.08.21 - Fixing White Space Top View
+
 ___
 
 ### Website Storyboard
