@@ -403,7 +403,7 @@ header h2{
     }
 
     nav .mainMenu li a {
-        background: none;
+        background: transparent;
         font-size: 2rem;
     }
 
