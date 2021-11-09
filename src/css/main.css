@@ -24,7 +24,7 @@ nav {
     color: #fff;
     display: flex;
     justify-content: space-between;
-    height: 33.5vh; /* Change applied */
+    height: 13vh; /* Change applied */
     overflow: hidden;
     width:100%;
 }
