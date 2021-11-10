@@ -1,3 +1,53 @@
+.container-fluid{
+    height: 1900px;
+}
+
+/* MEDIA QUERIES FOR CONTAINER FLUID */
+@media(max-width:1400px){
+    .container-fluid{
+        height: 2200px;
+    }
+}
+@media(max-width:1199px){
+    .container-fluid{
+        height: 2650px;
+    }
+}
+@media(max-width:991px){
+    .container-fluid{
+        height: 3600px;
+    }
+}
+@media(max-width:552px){
+    .container-fluid{
+        height: 5700px;
+    }
+    .icon{
+        width:100px;
+        height:100px;
+    }
+}
+
+@media(max-width:500px){
+    .container-fluid{
+        height: 6000px;
+    }
+}
+
+@media(max-width:395px){
+    .container-fluid{
+        height: 6200px;
+    }
+}
+
+
+@media(max-width:313px){
+    .container-fluid{
+        height: 6400px;
+    }
+}
+
+
 /* TEXT SIZE ADJUST */
 @media(max-width:1000px){
     .container-fluid .container h3{

@@ -54,6 +54,8 @@ ___
 
 11.08.21 - Fixing White Space Top View
 
+11.09.21 - Finishing Graphics Page / Finished Website (CAN BE WORKED ON IN FUTURE)
+
 ___
 
 ### Website Storyboard
