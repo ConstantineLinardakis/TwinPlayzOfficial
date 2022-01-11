@@ -1,18 +1,18 @@
-
 [![Website](https://github.com/ConstantineLinardakis/OfficialWebsite/blob/main/doc/THUMBNAIL.png)](https://constantinelinardakis.github.io/TwinPlayzOfficial/index.html)
 
-# ^ CLICK  ^
+# ^ CLICK ^
 
-___
+---
 
-# This is TwinPlayz Official Website. 
+# This is TwinPlayz Official Website.
+
 My website will include information about me, games i've created and videos. Feel free to check it out.
 
 <dl>
   <dt>HTML & CSS & JS </dt>
 </dl>
 
-___
+---
 
 ## Documentation
 
@@ -56,17 +56,17 @@ ___
 
 11.09.21 - Finishing Graphics Page / Finished Website (CAN BE WORKED ON IN FUTURE)
 
-___
+11.11.21 - Updated Some Info
+
+---
 
 ### Website Storyboard
+
 <img src="https://raw.githubusercontent.com/ConstantineLinardakis/TwinPlayzOfficial/main/src/assets/AboutPage.png">
 <img src="https://raw.githubusercontent.com/ConstantineLinardakis/TwinPlayzOfficial/main/src/assets/ContactPage.png">
 <img src="https://raw.githubusercontent.com/ConstantineLinardakis/TwinPlayzOfficial/main/src/assets/Home%20Page.png">
 <img src="https://raw.githubusercontent.com/ConstantineLinardakis/TwinPlayzOfficial/main/src/assets/ShortSizePage.png">
 
-___
+---
 
 #### @ TwinPlayz | twinplayzofficial@gmail.com
-
-
- 
