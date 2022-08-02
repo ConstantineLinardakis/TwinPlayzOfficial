@@ -60,6 +60,8 @@ My website will include information about me, games i've created and videos. Fee
 
 03.17.22 - Updated Some Info
 
+08.02.22 - Updated Some Info
+
 ---
 
 ### Website Storyboard
